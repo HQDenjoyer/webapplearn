@@ -1,0 +1,26 @@
+body {
+    background: #5b2e7d;
+}
+
+aside{
+    float: left;
+    background: #260242;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #6c527f;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    display: block;
+    margin-top: 15px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #a1cc43;
+    text-decoration: none;
+    transform: scale(1.05);
+}
